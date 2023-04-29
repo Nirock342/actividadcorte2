@@ -1,3 +1,7 @@
+/* Este HTML registra música. Incluye campos para el nombre, género, autor, año de
+origen, si tiene un remix y casillas de verificación para qué es la música (cantar, bailar,
+limpieza, etc). El formulario también incluye estilo Bootstrap y bibliotecas de JavaScript para volverlo mas
+interactivo. Los datos del formulario se envían a un PHP para la base de datos. */
 <html lang="es">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">

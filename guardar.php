@@ -1,3 +1,7 @@
+/* Este script PHP recibe datos de un formulario y los inserta en una base de datos MySQL.
+incluye un archivo llamado "conexion.php" que contiene la información de conexión a la base de datos.eso
+recupera los datos del formulario y lo asigna a las variables. Luego hace una consulta SQL para insertar los datos en la tabla "datos" en la
+base de datos. despues, ejecuta la consulta y muestra un mensaje indicando si funciono o no, junto con un botón para volver a la página principal. */
 <?php
 	
 	require 'conexion.php';

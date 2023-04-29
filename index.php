@@ -1,3 +1,7 @@
+/* Este script se conecta a una base de datos y obtiene datos de una tabla llamada "datos".
+también incluye un formulario de búsqueda que permite buscar datos en función de un campo específico llamado
+("nombre"). Los datos recuperados se muestran en una tabla usando clases de Bootstrap. El
+script también incluye una opcion que solicita al usuario que confirme la eliminación de un registro. */
 <?php
 	require 'conexion.php';
 	

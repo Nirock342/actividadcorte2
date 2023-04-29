@@ -1,3 +1,5 @@
+/* Este PHP elimina un registro de la base de datos basado en la ID. Luego muestra un mensaje que indica si la eliminación fue exitosa o no, y
+proporciona un botón para volver a la página de index. El código HTML en el script se utiliza para que borre y muestre el mensaje y el botón. */
 <?php
 
 	require 'conexion.php';
