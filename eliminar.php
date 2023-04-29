@@ -1,9 +1,7 @@
 <?php
-	
-	require 'conexion.php';
 
-	$id = $_GET['id'];
-	
+	require 'conexion.php';
+	$id = $_GET['id'];	
 	$sql = "DELETE FROM datos WHERE id = '$id'";
 	$resultado = $mysqli->query($sql);
 	
